@@ -1,0 +1,3 @@
+[submodule "shared/people"]
+	path = shared/people
+	url = https://github.com/jopavlicek/people-module.git
