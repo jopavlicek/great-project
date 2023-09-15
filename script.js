@@ -5,6 +5,6 @@ fetch("shared/people/people.json")
 function displayData(data) {
     data.forEach(person => {
         const list = document.querySelector("ul")
-        list.innerHTML += `<li>Id: ${person.id}, Name: ${person.name}</li>`
+        list.innerHTML += `<li>Id: ${person.id}, ${person.name} ${person.surname}</li>`
     })
 }
